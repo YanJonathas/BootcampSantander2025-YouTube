@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body {
+    width: 100%;
+    max-width: 2200px;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 70px;
+    margin: auto;
+}
+h1 {
+    font-size: 20px;
+}
+a {
+    color: #000000;
+}
+/*header*/
+#menu-logo {
+    display: flex;
+}
+#menu-icon {
+    margin-right: 20px;
+    cursor: pointer;
+}
+#pesquisar {
+    display: flex;
+}
+#pesquisar input {
+    border: 1px solid #ccc;
+    height: 35px;
+    border-radius: 25px 0px 0px 25px;
+    width: 500px;
+    font-size: 16px;
+    outline: none;
+    padding-left: 15px;
+}
+#pesquisar img {
+    background-color: #cccccc77;
+    padding: 5px;
+    border-radius: 0px 25px 25px 0px;
+    border: 1px solid #ccc;
+    height: 25px;
+}
+#avatar img {
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+/* main */
+main {
+    display: flex;
+    width: 100%;
+    max-width: 95%;
+    margin: auto;
+    flex: 1 1 0;
+    height: calc(100vh - 70px);
+}
+#video {
+    flex: 2;
+    
+    padding: 20px;
+}
+.video iframe {
+    width: 100%;
+    max-width: 90%;
+    height: 65vh;
+    min-width: 500px;
+    border-radius: 15px;
+}
+.video-forms h1 {
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: start;
+}
+.likes-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 90%;
+    
+}
+.canal {
+    display: flex;
+}
+.canal img {
+    width: 30px;
+}
+.canal h2 {
+    font-size: 18px;
+    margin-left: 12px;
+}
+.canal h2 span {
+    font-size: 12px;
+}
+.button-ins {
+    background-color: black;
+    color: #ffffff;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    margin-right: 20%;
+    border: none;
+}
+.like-img img {
+    margin-left: 15px;
+}
+
+
+#next-videos {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.mini-menu button {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.videos-laterais {
+    display: flex;
+    margin-bottom: 20px;
+}
+.laterais{
+    width: 200px;
+}
